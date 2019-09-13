@@ -57,7 +57,8 @@ class HomePage extends StatelessWidget{
                   children: <Widget>[
                     image2,
                     new Text("DEF", style: TextStyle(wordSpacing: 8)),
-                    new Text("Noida", style: TextStyle(wordSpacing: 10, fontSize: 12))
+                    new Text("Noida", style: TextStyle(wordSpacing: 10, fontSize: 12)),
+                    new Padding(padding: new EdgeInsets.only(bottom: 8.0))
                   ],
                 )
             ),
